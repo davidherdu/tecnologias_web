@@ -1,0 +1,79 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Proyecto myphotos realizado por David Hernandez Duran</h1>
+<h3>Archivos:</h3>
+<h4><a href="codigo/admin.php">admin.php</a></h4>
+Esta pagina es para el adminsitrador del sitio, si pulsas un usuario te pregunta si quieres eliminarle.
+<h4><a href="codigo/albumes.php">albumes.php</a></h4>
+Pagina que muestra los albumes de un usuario. Si seleccionas uno te envia a las fotos que hay en ese album.
+<br>Si das a crear album te manda a la pagina para crear un album.
+<h4><a href="codigo/cabecera.php">cabecera.php</a></h4>
+Archivo que contiene la cabecera de toda la aplicacion. En todos los archivos los que se necesita<br>
+esta incluida con include("cabecera.php").
+<h4><a href="codigo/conexion.php">conexion.php</a></h4>
+Archivo que contiene y crea la conexion con la BBDD. Se incluye en todos los archivos con include("conexion.php").
+<h4><a href="codigo/eliminarAlbum.php">eliminarAlbum.php</a></h4>
+Archivo que contiene el script para eliminar el album de un usuario, este se elimina dando al enlace eliminar album de la <br>
+pagina listaFotos.php.
+<h4><a href="codigo/eliminarFoto.php">eliminarFoto.php</a></h4>
+Archivo que contiene el script para eliminar una foto de un usuario, esta se elimina dando al enlace eliminar foto que aparece <br>
+en una foto seleccionada en foto.php.
+<h4><a href="codigo/eliminaUsuario.php">eliminaUsuario.php</a></h4>
+Archivo que contiene el script para eliminar un usuario, este se elimina unicamente desde el adminstrador.
+<h4><a href="codigo/foto.php">foto.php</a></h4>
+Pagina que muestra la foto seleccionada desde album.php. A la derecha esta la opcion de cambiarle el nombre (introduciendo el nuevo nombre en el cuadro de texto)<br>
+o eliminarla.
+<h4><a href="codigo/index.php">index.php</a></h4>
+Pagina principal de la aplicacion.
+<h4><a href="codigo/listaFotos.php">listaFotos.php</a></h4>
+Pagina a la que se llega desde album.php, en ella se muestran las fotos de un album seleccionado y dando a una foto te lleva a foto.php.
+<br>En esta pagina tambien se puede eliminar el album en el que estas dando al enlace eliminar album.
+<h4><a href="codigo/login.php">login.php</a></h4>
+Script que indica el usuario y el password son correctos.
+<h4><a href="codigo/logout.php">logout.php</a></h4>
+Script que cierra la sesion y me lleva a index.php.
+<h4><a href="codigo/nuevoAlbum.php">nuevoAlbum.php</a></h4>
+Pagina que me permite crear un nuevo album introduciendo un nombre y una descripcion. Aqui llego desde albumes.php.
+<h4><a href="codigo/pie.php">pie.php</a></h4>
+Contiene el pie de pagina de todas las paginas, en todas lo incluyo al final con include("pie.php").
+<h4><a href="codigo/registro.php">registro.php</a></h4>
+Pagina que me permite registrar un nuevo usuario. Si este existe no me deja crearle y una vez creado me avisa.
+<h4><a href="codigo/subirFoto.php">subirFoto.php</a></h4>
+Script que hace la subida de una foto al carpeta correspondiente y a la BBDD, la llamo desde listaFotos.php.
+<h4><a href="codigo/usuario.php">usuario.php</a></h4>
+Pagina principal de un usuario en la que se muestran todas las fotos de este. Si pulso una foto me la muestra como un pop-up.
+<br><br>
+Cuando muestra tanto la lista de albumes como la de las fotos lo muestra diferente en XAMPP y en bantu, no se a que es debido ya que el codigo<br>
+y el navegador que he usado es el mismo. Al ver alguna de las paginas de fotos a lo mejor no lo muestra en la primera y hay que pasar con los indicadores<br>
+de avanzar a un lado o a otro.<br>
+En la carpeta estilo esta todo el css que he utilizado y en la carpeta javascript todos los .js que he usado.
+<br><br><br>
+Lista de usuarios creados:
+<br><br>
+Usuario/password
+<br>
+admin/admin
+<br>
+david@hotmail.es/david
+<br>
+pepe@hotmail.com/pepe
+<br>
+maria@gmail.com/maria
+<br>
+ana@gmail.com/ana
+<br><br>Todos los usuario tienen que crearse poniendo un email valido ej: nombre@example.terminacion
+
+<br><br>
+Origen de los archivos:<br>
+Imagenes: las imagenes india1,india2,india3,india4 son mias. Las otras son de la plantilla que he usado en 
+<a href='http://www.freecsstemplates.org'>www.freecsstemplates.org</a>
+<br>
+Los CSS: style.css venia tambien con www.freecsstemplates.org, aunque yo he modificado cosas.
+Los jquery tanto los .js como el .css son de la pagina <a href='http://www.jquery.com'>www.jquery.com</a><br>
+El vanadium es de <a href='http://www.vanadiumjs.com'>www.vanadiumjs.com</a>
+<br><br>
+
+</body>
+</html>

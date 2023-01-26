@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Login</title>
+</head>
+<body>
+<h2>Conetarse -  Desconectarse</h2>
+<div align="center">
+	<form name="login_user" action="login.php" method="post" />
+		<dt><label>Nick:</label></dt>
+		<input type='text' name='nick' /><br /><br />
+
+		<dt><label>Contraseña:</label></dt>
+		<input type="password" name='pass' /><br /><br />
+		
+		<input type="submit" name="login" style="width:100px;" tabindex="6" value="Entrar" />
+		<input type="reset" name="Limpiar" style="width:100px;" tabindex="6" value="Limpiar" />
+	</form>
+	<a href="registro.php">Registrarse</a> || <a href="perfil.php">Perfil [Solo registrados]</a>
+</div>
+<?php
+}
+?>
+</body>
+</html>

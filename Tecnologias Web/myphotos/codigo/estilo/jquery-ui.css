@@ -1,0 +1,15 @@
+#sortable { 
+	list-style-type: none; 
+	margin-left: 40px; 
+	padding: 0; 
+}
+
+#sortable li { 
+	margin: 6px; 
+	padding: 1px; 
+	float: left; 
+	width: 230px; 
+	height: 150px; 
+	font-size: 4em; 
+	text-align: center; 
+}
